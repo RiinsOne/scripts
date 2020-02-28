@@ -1,11 +1,12 @@
-### Python script which allow to download recursively all .deb packages's dependencies of application.
+## Python script which allow to download recursively all .deb packages's dependencies of application.
+
 
 #### Download or copy script and run it with one or more arguments
 ```{r, engine='bash', count_lines}
 $python3 get_depends.py nano htop
 ```
 
-#### It will create a folder with an app name and move their all dependecies.
+#### It will create a folder with the app name and move all their dependecies there.
 ```{r, engine='bash', count_lines}
 $ls
 get_depends.py  htop  nano
